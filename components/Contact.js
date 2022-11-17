@@ -32,7 +32,7 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available to do freelance work or full-time position.
-                  Contact me and let's talk.
+                  Contact me and let us talk.
                 </p>
               </div>
               <div>
