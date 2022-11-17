@@ -17,7 +17,7 @@ const recipe = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Recipe App</h2>
+          <h2 className="py-2">Foodies Recipe App</h2>
           <h3>Next JS / Tailwind / Mongodb Atlas</h3>
         </div>
       </div>
@@ -26,16 +26,23 @@ const recipe = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            ijgeorijgeoigjeriogerjgiojgoeeijeoijgeiogj jgioegjeoigj gjeiog
-            jeiogjeiogjeiogje jeiogj eoigjeio jge oiejgeo j ijegoi ejgoi joeijg
-            eoijg eoij eoj eoijgeiogjegioj gjeioj jeiogjeiog gjiogjj jg
-            gjgjgoiejeiogjeoigje ojeiogjeoigje oigjeoigjeigj
-            rgrmkrbrmbrbjrjbrigbgg;fkbjibj rgbjijbr bjrbio joirbj rogibjrogbj
-            orjbo b rrgbrgrgrrrrrgbrbrbrbrgbbgfbgbgbgrgbjgriobjrgiob hrh rjigo
-            jgoie oei goegjeo geojgoi rgbrgbfhuheiuheihfeiufehfiubhhbrihbrgh
+          Are you hungry but do not know what to cook. Look no futher, we have the app for you. Introducing, Foodie's Recipe. This website you can look up recipes to make and save your very own recipes and have other cooks look at your recipes. Building upon the foundation of react, I learned next js and used mongodb atlas to build this app from scratch.
+
           </p>
+          <a
+          href='https://recipe-jet.vercel.app/'
+          target="_blank"
+            rel="noreferrer"
+          >
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a
+          href='https://github.com/aanglin/recipe'
+          target="_blank"
+            rel="noreferrer"
+          >
           <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

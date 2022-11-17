@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Recipe from "../public/assets/projects/recipe.png";
+import Tech from "../public/assets/projects/techBlog.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const recipe = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Recipe}
+          src={Tech}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Recipe App</h2>
-          <h3>Next JS / Tailwind / Mongodb Atlas</h3>
+          <h2 className="py-2">Tech Blog App</h2>
+          <h3>Handlebars / CSS / MySQL2</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,16 +26,25 @@ const recipe = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            ijgeorijgeoigjeriogerjgiojgoeeijeoijgeiogj jgioegjeoigj gjeiog
-            jeiogjeiogjeiogje jeiogj eoigjeio jge oiejgeo j ijegoi ejgoi joeijg
-            eoijg eoij eoj eoijgeiogjegioj gjeioj jeiogjeiog gjiogjj jg
-            gjgjgoiejeiogjeoigje ojeiogjeoigje oigjeoigjeigj
-            rgrmkrbrmbrbjrjbrigbgg;fkbjibj rgbjijbr bjrbio joirbj rogibjrogbj
-            orjbo b rrgbrgrgrrrrrgbrbrbrbrgbbgfbgbgbgrgbjgriobjrgiob hrh rjigo
-            jgoie oei goegjeo geojgoi rgbrgbfhuheiuheihfeiufehfiubhhbrihbrgh
+            I learned Handlebars and made a project based on a blog. You can
+            edit and post a blog as well as comment on one. The routes were the
+            challenged when learning handlebars. It was a begining to
+            understanding React.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://tech-2-blog.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a
+            href="https://github.com/aanglin/Tech-Blog2"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -43,25 +52,29 @@ const recipe = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Next JS
+                Handlebars
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Tailwind CSS
+                CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Mongodb Atlas
+                MySQL2
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Recipe-by-api-Ninjas
+                Bcrypt
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="mr-1" />
+                Express
               </p>
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-            <p className="underline cursor-pointer">Back</p>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
     </div>

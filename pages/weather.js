@@ -1,24 +1,24 @@
 import Image from "next/image";
 import React from "react";
-import Recipe from "../public/assets/projects/recipe.png";
+import WeatherPic from "../public/assets/projects/Weather.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const recipe = () => {
+const Weather = () => {
   return (
     <div className="w-full">
       <div className="relative w-screen h-[30vh] lg:h-[40vh]">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] z-10" />
         <Image
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Recipe}
+          src={WeatherPic}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Recipe App</h2>
-          <h3>Next JS / Tailwind / Mongodb Atlas</h3>
+          <h2 className="py-2">Weather App</h2>
+          <h3>Next JS / Tailwind / Weather Api</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,16 +26,22 @@ const recipe = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            ijgeorijgeoigjeriogerjgiojgoeeijeoijgeiogj jgioegjeoigj gjeiog
-            jeiogjeiogjeiogje jeiogj eoigjeio jge oiejgeo j ijegoi ejgoi joeijg
-            eoijg eoij eoj eoijgeiogjegioj gjeioj jeiogjeiog gjiogjj jg
-            gjgjgoiejeiogjeoigje ojeiogjeoigje oigjeoigjeigj
-            rgrmkrbrmbrbjrjbrigbgg;fkbjibj rgbjijbr bjrbio joirbj rogibjrogbj
-            orjbo b rrgbrgrgrrrrrgbrbrbrbrgbbgfbgbgbgrgbjgriobjrgiob hrh rjigo
-            jgoie oei goegjeo geojgoi rgbrgbfhuheiuheihfeiufehfiubhhbrihbrgh
+            Weather app was created to text my knowledge with next js and also to build upon the knowledge of api's and passing of data from parent component to child.
           </p>
+          <a
+          href='https://weather-phi-olive.vercel.app/'
+          target="_blank"
+            rel="noreferrer"
+          >
           <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a
+          href='https://github.com/aanglin/weather'
+          target="_blank"
+            rel="noreferrer"
+          >
           <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -51,11 +57,7 @@ const recipe = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Mongodb Atlas
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="mr-1" />
-                Recipe-by-api-Ninjas
+                Weather API
               </p>
             </div>
           </div>
@@ -68,4 +70,4 @@ const recipe = () => {
   );
 };
 
-export default recipe;
+export default Weather;

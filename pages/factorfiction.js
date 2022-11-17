@@ -17,8 +17,8 @@ const FactorFiction = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Recipe App</h2>
-          <h3>HandleBars /  / MySQL</h3>
+          <h2 className="py-2">Fact or Fiction</h2>
+          <h3>HandleBars / Bootstrap / MySQL</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,16 +26,26 @@ const FactorFiction = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            ijgeorijgeoigjeriogerjgiojgoeeijeoijgeiogj jgioegjeoigj gjeiog
-            jeiogjeiogjeiogje jeiogj eoigjeio jge oiejgeo j ijegoi ejgoi joeijg
-            eoijg eoij eoj eoijgeiogjegioj gjeioj jeiogjeiog gjiogjj jg
-            gjgjgoiejeiogjeoigje ojeiogjeoigje oigjeoigjeigj
-            rgrmkrbrmbrbjrjbrigbgg;fkbjibj rgbjijbr bjrbio joirbj rogibjrogbj
-            orjbo b rrgbrgrgrrrrrgbrbrbrbrgbbgfbgbgbgrgbjgriobjrgiob hrh rjigo
-            jgoie oei goegjeo geojgoi rgbrgbfhuheiuheihfeiufehfiubhhbrihbrgh
+            Fact or fiction is a full-stack application that allows users to
+            play an interactive game, determining whether or not presented laws
+            or headlines are real or fake. It gave experience working on a team,
+            using git, and managing our time. Future direction for this app is
+            to allow sign-on with google and to update framework.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <a
+            href="https://factorfiction.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a
+            href="https://github.com/aanglin/Fact-Fiction"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button className="px-8 py-2 mt-4">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -43,25 +53,33 @@ const FactorFiction = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Next JS
+                Handlebars
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Tailwind CSS
+                Bootstrap CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Mongodb Atlas
+                MySQL2
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Recipe-by-api-Ninjas
+                Express
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="mr-1" />
+                Node
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="mr-1" />
+                Kaggle
               </p>
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-            <p className="underline cursor-pointer">Back</p>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
     </div>
