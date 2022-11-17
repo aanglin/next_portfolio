@@ -13,7 +13,7 @@ const Main = () => {
              Front-End | Back-End | MERN Stack Developer!
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#5651e5]"> Aaron Anglin</span>
+            Hi, I am <span className="text-[#5651e5]"> Aaron Anglin</span>
           </h1>
           <h1 className="py-2 text-gray-700">
             {" "}

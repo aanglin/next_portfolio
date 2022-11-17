@@ -26,7 +26,7 @@ const Weather = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Weather app was created to text my knowledge with next js and also to build upon the knowledge of api's and passing of data from parent component to child.
+            Weather app was created to text my knowledge with next js and also to build upon the knowledge of fetching api data and passing of data from parent component to child.
           </p>
           <a
           href='https://weather-phi-olive.vercel.app/'
