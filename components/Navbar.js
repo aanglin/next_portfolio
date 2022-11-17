@@ -13,21 +13,21 @@ const Navbar = () => {
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
-  useEffect (()=> {
-if (
-  router.asPath === '/recipe' ||
-  router.asPath === '/factorfiction' ||
-  router.asPath === '/notes' ||
-  router.asPath === '/weather' ||
-  router.asPath === '/techBlog' 
-){
-  setNavBg('transparent')
-  setLinkColor('#ecf0f3')
-}else {
-  setNavBg("#ecf0f3")
-  setLinkColor("#1f2937")
-}
-  },[router])
+  useEffect(() => {
+    if (
+      router.asPath === "/recipe" ||
+      router.asPath === "/factorfiction" ||
+      router.asPath === "/notes" ||
+      router.asPath === "/weather" ||
+      router.asPath === "/techBlog"
+    ) {
+      setNavBg("transparent");
+      setLinkColor("#ecf0f3");
+    } else {
+      setNavBg("#ecf0f3");
+      setLinkColor("#1f2937");
+    }
+  }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -44,7 +44,7 @@ if (
   }, []);
   return (
     <div
-    style={{backgroundColor: `${navBg}`}}
+      style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
           ? "fixed w-full h-20 shadow-xl z-[100]"
@@ -53,17 +53,10 @@ if (
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image
-            src="/../public/assets/AA.png"
-            alt="/"
-            width="80"
-            height="50"
-          />
+          <h1 className="italic text-[#5651e5]">AA</h1>
         </Link>
         <div>
-          <ul 
-          style={{color: `${linkColor}`}}
-          className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
@@ -104,12 +97,7 @@ if (
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href="/">
-                <Image
-                  src="/../public/assets/AA.png"
-                  width="87"
-                  height="35"
-                  alt="/"
-                />
+                <h1 className="italic text-[#5651e5]">AA</h1>
               </Link>
               <div
                 onClick={handleNav}
@@ -158,17 +146,35 @@ if (
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <FaLinkedinIn />
+                  <Link
+                    href="https://www.linkedin.com/in/aaronanglin/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaLinkedinIn />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <FaGithub />
+                  <Link
+                    href="https://github.com/aanglin"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaGithub />
+                  </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
-                  <AiOutlineMail />
+                  <Link
+                    href="mailto:aaron.anglin101@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <AiOutlineMail />
+                  </Link>
                 </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
+                {/* <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                   <BsFillPersonLinesFill />
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
