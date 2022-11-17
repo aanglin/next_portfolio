@@ -108,7 +108,7 @@ const Navbar = () => {
             </div>
             <div className="border-b border-gray-300 my-4">
               <p className="w-[85%] md:w-[90%]">
-                I am a Front-End | Back-End | MERN Stack Developer!
+                Front-End | Back-End | MERN Stack Developer!
               </p>
             </div>
           </div>

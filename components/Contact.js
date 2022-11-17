@@ -86,6 +86,7 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      placeholder="COMING"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -95,6 +96,7 @@ const Contact = () => {
                     <input
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
+                      placeholder="SOON"
                     />
                   </div>
                 </div>
@@ -117,7 +119,9 @@ const Contact = () => {
                   <textarea
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
-                  ></textarea>
+                    placeholder="This will be a future add on!"
+                  >
+                  </textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
                   Send Message

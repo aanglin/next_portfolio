@@ -10,7 +10,7 @@ const Main = () => {
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
-            I am a Front-End | Back-End | MERN Stack Developer!
+             Front-End | Back-End | MERN Stack Developer!
           </p>
           <h1 className="py-4 text-gray-700">
             Hi, I'm <span className="text-[#5651e5]"> Aaron Anglin</span>
@@ -20,7 +20,7 @@ const Main = () => {
             I am a Front-End Web Developer{" "}
           </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I am a front-end web developer whose focused on building responsive
+            Front-end web developer focused on building responsive
             web applications to meet the needs of the client. I have a passion
             to help others and love to see others acheive their goals.
           </p>
