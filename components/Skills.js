@@ -1,5 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import hTML from '../public/assets/skills/html.png'
+
+
 const Skills = () => {
   return (
     <div id='skills' className="w-full lg:h-screen p-2">
@@ -13,7 +16,7 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/html.png"
+                  src={hTML}
                   width="64"
                   height="64"
                   alt="/"
