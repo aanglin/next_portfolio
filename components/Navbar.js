@@ -94,7 +94,7 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className="flex w-full items-center justify-between">
+            <div className="flex w-full items-center justify-around">
               <Link href="/">
                 <h1 className="italic text-[#5651e5]">AA</h1>
               </Link>
@@ -143,7 +143,7 @@ const Navbar = () => {
               <p className="uppercase tracking-widest text-[#5651e5]">
                 Let us Connect
               </p>
-              <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
+              <div className="flex items-center justify-around my-4 w-full sm:w-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 ">
                   <Link
                     href="https://www.linkedin.com/in/aaronanglin/"
