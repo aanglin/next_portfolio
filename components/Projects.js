@@ -1,7 +1,5 @@
 import React from "react";
 import Recipe from "../public/assets/projects/recipe.png";
-import Image from "next/image";
-import Link from "next/link";
 import ProjectItems from "./ProjectItems";
 import Weather from "../public/assets/projects/Weather.png";
 import FactorFiction from "../public/assets/projects/FactorFiction.png";
