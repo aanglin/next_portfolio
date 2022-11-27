@@ -17,7 +17,7 @@ const Projects = () => {
         <h2 className="py-4">What I have built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems 
-          title="Recipe App" 
+          title="Hulu 2.0" 
           bgImage={Hulu} 
           projectUrl="/hulu" 
           />
