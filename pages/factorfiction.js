@@ -78,8 +78,12 @@ const FactorFiction = () => {
             </div>
           </div>
         </div>
-        <Link href="/#projects">
+        <Link 
+        legacyBehavior
+        href="/#projects">
+          <a>
           <p className="underline cursor-pointer">Back</p>
+          </a>
         </Link>
       </div>
     </div>
