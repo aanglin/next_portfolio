@@ -5,9 +5,15 @@ import { AiOutlineMail } from "react-icons/ai";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactMe from '../public/assets/contact.jpg'
+import ContactMe from "../public/assets/contact.jpg";
+import { useForm } from "react-hook-form";
 
 const Contact = () => {
+  const { register, handleSubmit } = useForm();
+  const onSubmit = (formData) => {
+    window.location.href = `mailto:aaronanglin@aanglin.dev?subject=${formData.subject}&body=Hi, my name is ${formData.name} and my phone number is ${formData.phone} and ${formData.message}.`;
+  };
+
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
@@ -80,14 +86,14 @@ const Contact = () => {
           {/* right */}
           <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 ">
             <div className="p-4">
-              <form>
+              <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
+                      {...register("name")}
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
-                      placeholder="COMING"
                     />
                   </div>
                   <div className="flex flex-col">
@@ -95,15 +101,16 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
+                      {...register("phone")}
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
-                      placeholder="SOON"
                     />
                   </div>
                 </div>
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
+                    {...register("email")}
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
                   />
@@ -111,6 +118,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
+                    {...register("subject")}
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                   />
@@ -118,11 +126,10 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
+                    {...register("message")}
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
-                    placeholder="This will be a future add on!"
-                  >
-                  </textarea>
+                  ></textarea>
                 </div>
                 <button className="w-full p-4 text-gray-100 mt-4">
                   Send Message
