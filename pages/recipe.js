@@ -26,7 +26,7 @@ const recipe = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          Are you hungry but do not know what to cook. Look no futher, we have the app for you. Introducing, Foodies Recipe. This website you can look up recipes to make and save your very own recipes and have other cooks look at your recipes. Building upon the foundation of react, I learned next js and used mongodb atlas to build this app from scratch.
+          Are you hungry but do not know what to cook. Look no further, we have the app for you. Introducing, Foodies Recipe. This website you can look up recipes to make and save your very own recipes and have other cooks look at your recipes. Building upon the foundation of react, I learned next js and used mongodb atlas to build this app from scratch.
 
           </p>
           <a
