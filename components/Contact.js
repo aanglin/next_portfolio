@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
+import { GrResume } from "react-icons/gr";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
@@ -39,11 +39,11 @@ const Contact = () => {
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available to do freelance work or full-time position.
-                  Contact me and let us talk.
+                  Contact me at <span className="text-[blue]">aaronanglin@aanglin.dev</span> by filling out the form and let us talk.
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8"> Connect with me</p>
+                <p className="uppercase pt-8"> Connect with me via linkedin, github or download my resume</p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <Link
@@ -65,11 +65,11 @@ const Contact = () => {
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <Link
-                      href="mailto:aaron.anglin101@gmail.com"
+                      href="https://docs.google.com/document/d/1N2_ht68l2LVZNMGlVJ1RfV9gx2YJrMUmtLAE7JDAswA/edit?usp=sharing"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <AiOutlineMail />
+                      <GrResume /> 
                     </Link>
                   </div>
                   {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">

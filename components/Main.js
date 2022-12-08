@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { AiOutlineMail } from "react-icons/ai";
+import { GrResume } from "react-icons/gr";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
@@ -45,11 +45,11 @@ const Main = () => {
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <Link
-                href="mailto:aaron.anglin101@gmail.com"
+                href="https://docs.google.com/document/d/1N2_ht68l2LVZNMGlVJ1RfV9gx2YJrMUmtLAE7JDAswA/edit?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
-                <AiOutlineMail />
+                <GrResume />
               </Link>
             </div>
             {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
