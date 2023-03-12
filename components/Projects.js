@@ -6,6 +6,7 @@ import FactorFiction from "../public/assets/projects/FactorFiction.png";
 import Notes from "../public/assets/projects/Notes.png";
 import TechBlog from "../public/assets/projects/techBlog.png";
 import Hulu from "../public/assets/projects/Hulu2.0.png";
+import Foodies2 from "../public/assets/projects/Foodies2.0.png";
 
 const Projects = () => {
   return (
@@ -45,6 +46,11 @@ const Projects = () => {
             title="TechBlog App"
             bgImage={TechBlog}
             projectUrl="/techBlog"
+          />
+          <ProjectItems
+            title="Foodies 2.0"
+            bgImage={Foodies2}
+            projectUrl="/foodies"
           />
         </div>
       </div>
