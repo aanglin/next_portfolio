@@ -45,7 +45,7 @@ const Main = () => {
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <Link
-                href="https://docs.google.com/document/d/1N2_ht68l2LVZNMGlVJ1RfV9gx2YJrMUmtLAE7JDAswA/edit?usp=sharing"
+                href="https://docs.google.com/document/d/1KIlwJVsW2I_n9ZnVt0-HESzeER9Llwcxryb1CLZ3XaE/edit?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
