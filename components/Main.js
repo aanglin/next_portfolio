@@ -52,13 +52,6 @@ const Main = () => {
                 <GrResume />
               </Link>
             </div>
-            {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <Link 
-              href='/#contact'
-              >
-              <BsFillPersonLinesFill />
-              </Link>
-            </div> */}
           </div>
         </div>
       </div>
