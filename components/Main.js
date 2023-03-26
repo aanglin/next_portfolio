@@ -3,6 +3,7 @@ import React from "react";
 import { GrResume } from "react-icons/gr";
 // import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 
 const Main = () => {
   return (
@@ -15,9 +16,23 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I am <span className="text-[#5651e5]"> Aaron Anglin</span>
           </h1>
-          <h1 className="py-2 text-gray-700">
+          <h1 className="flex justify-center py-2 text-gray-700 ">
             {" "}
-            I am a Front-End Web Developer{" "}
+            I am a {" "}
+            <TypeAnimation
+      sequence={[
+        'Web Developer', 
+        2000, 
+        'Chef', 
+        2000, 
+        'Tech Enthusiast',
+        2000, 
+      ]}
+      wrapper="div"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '1em', display: 'inline-block', paddingLeft: '15px' }}
+    />
           </h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Front-end web developer focused on building responsive
