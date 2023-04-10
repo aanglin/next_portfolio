@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Dealio from "../public/assets/dealio.png";
+import DealioPic from "../public/assets/dealio.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ const Dealio = () => {
         <Image
           className="absolute z-1 object-cover"
           layout="fill"
-          src={Dealio}
+          src={DealioPic}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
