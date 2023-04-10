@@ -25,7 +25,7 @@ const Dealio = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I have built a fully-functional e-commerce site using Next.js, Tailwind CSS, MongoDB, and Stripe. This project allowed me to showcase my expertise in these modern technologies and tools. With Next.js, I was able to create a fast and responsive frontend with support for server-side rendering and code splitting. I used Tailwind CSS to quickly style the site's elements, while MongoDB provided a flexible and scalable backend database. Finally, I integrated Stripe into the site using webhooks, allowing me to securely process payments online. Overall, I am proud of the work that I have done on this e-commerce project and I am excited to see it grow and evolve over time.  
+          I have built a fully-functional e-commerce site using Next.js, Tailwind CSS, MongoDB, and Stripe. This project allowed me to showcase my expertise in these modern technologies and tools. With Next.js, I was able to create a fast and responsive frontend with support for server-side rendering and code splitting. I used Tailwind CSS to quickly style the elements, while MongoDB provided a flexible and scalable backend database. Finally, I integrated Stripe into the site using webhooks, allowing me to securely process payments online. Overall, I am proud of the work that I have done on this e-commerce project and I am excited to see it grow and evolve over time.  
           </p>
           <a
             href="https://dealio.vercel.app/"
