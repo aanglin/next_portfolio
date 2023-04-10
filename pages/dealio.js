@@ -4,7 +4,7 @@ import Dealio from "../public/assets/dealio.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Foodies2 = () => {
+const Dealio = () => {
   return (
     <div className="w-full">
       <div className="relative w-screen h-[30vh] lg:h-[40vh]">
@@ -73,4 +73,4 @@ const Foodies2 = () => {
   );
 };
 
-export default Foodies2;
+export default Dealio;
