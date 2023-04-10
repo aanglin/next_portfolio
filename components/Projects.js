@@ -8,6 +8,7 @@ import TechBlog from "../public/assets/projects/techBlog.png";
 import Hulu from "../public/assets/projects/Hulu2.0.png";
 import Foodies2 from "../public/assets/projects/Foodies2.0.png";
 import TechCation from "../public/assets/techcation.png";
+import Dealio from "../public/assets/dealio.png";
 
 const Projects = () => {
   return (
@@ -57,6 +58,11 @@ const Projects = () => {
             title="TechCation"
             bgImage={TechCation}
             projectUrl="/techCation"
+          />
+          <ProjectItems
+            title="Dealio"
+            bgImage={Dealio}
+            projectUrl="/dealio"
           />
         </div>
       </div>
