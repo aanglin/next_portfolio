@@ -30,7 +30,7 @@ const Foodies2 = () => {
  
           </p>
           <a
-            href="todo-drab-seven-41.vercel.app"
+            href="https://todo-drab-seven-41.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
