@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Foodies from "../public/assets/projects/Foodies2.0.png";
+import ToDo from "../public/assets/todo.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -8,16 +8,16 @@ const Foodies2 = () => {
   return (
     <div className="w-full">
       <div className="relative w-screen h-[30vh] lg:h-[40vh]">
-        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10" />
+        <div className="absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/50 z-10" />
         <Image
           className="absolute z-1 object-cover"
           layout="fill"
-          src={Foodies}
+          src={ToDo}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Foodies 2.0</h2>
-          <h3>Next JS / Tailwind / Edamam API</h3>
+          <h2 className="py-2">TODO</h2>
+          <h3>Next JS / Tailwind / Workbox-Webpack-Plugin</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -25,17 +25,19 @@ const Foodies2 = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            In this remake of Foodies Recipe, it has an updated UI, and uses a new API called Edamon for recipe. It uses NextJs and Tailwind to style it. You can also save recipes that you like. They will be saved to your local storage. 
+          I have built a simple todo app that will allow you to keep track of your daily task and mark them complete when finished. If you need to update your task you can do so. You can also delete your task when done. It is saved to the database under users id. This app is also made into an PWA using workbox-webpack-plugin. So feel free to download it to the computer or phone.
+
+ 
           </p>
           <a
-            href="https://foodies2.vercel.app/"
+            href="todo-drab-seven-41.vercel.app"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/aanglin/foodies2"
+            href="https://github.com/aanglin/todo"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,7 +58,7 @@ const Foodies2 = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Edamam API
+                Workbox-Webpack-Plugin
               </p>
             </div>
           </div>
