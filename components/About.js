@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Lottie from "lottie-react";
-import animationData from "../public/assets/143896-user-interface-animation-loop.json";
+import animationData from "../public/assets/138767-laptop-animatiion.json";
 import Computer from "../public/assets/about.jpg";
 
 const About = () => {
