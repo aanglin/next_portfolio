@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Player } from '@lottiefiles/react-lottie-player';
-
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const About = () => {
   return (
@@ -12,9 +11,7 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who Am I</h2>
-          <p className="py-2 ">
-            I am your cooking front-end developer
-          </p>
+          <p className="py-2 ">I am your cooking front-end developer</p>
           <p className="py-2 ">
             I have worked in the food industry for over 20 years in many
             different levels. I started off as a cook, worked my way up to a
@@ -44,22 +41,12 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto  m-auto  rounded-xl flex items-center justify-center p-4  hover:scale-105 ease-in duration-300">
-        <Player
-  autoplay
-  loop
-  src="https://assets9.lottiefiles.com/packages/lf20_w51pcehl.json"
-  style={{ height: '500px', width: '650px' }}
->
-  
-</Player>
-          {/* <Lottie animationData={animationData} /> */}
-          {/* <Image
-            src={Computer}
-            alt="/"
-            width="500"
-            height="60"
-            className="rounded-xl"
-          /> */}
+          <Player
+            autoplay
+            loop
+            src="https://assets9.lottiefiles.com/packages/lf20_w51pcehl.json"
+            style={{ height: "500px", width: "650px" }}
+          ></Player>
         </div>
       </div>
     </div>

@@ -2,11 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { GrResume } from "react-icons/gr";
-// import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import ContactMe from "../public/assets/contact.jpg";
 import { useForm } from "react-hook-form";
+import { Player } from "@lottiefiles/react-lottie-player";
 
 const Contact = () => {
   const { register, handleSubmit } = useForm();
@@ -26,20 +26,19 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Image
-                  className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src={ContactMe}
-                  alt="/"
-                  width="500"
-                  height="60"
-                />
+              <Player
+            autoplay
+            loop
+            src="https://assets1.lottiefiles.com/packages/lf20_eijHZ0.json"
+            style={{ height: "400px", width: "400px" }}
+          ></Player>
               </div>
               <div>
-                <h2 className="py-2">Aaron Anglin</h2>
+                <h2 className="">Aaron Anglin</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available to do freelance work or full-time position.
-                  Contact me at <span className="text-[blue]">aaronanglin@aanglin.dev</span> by filling out the form and let us talk.
+                  Contact me at <span className="text-[#034001]">aaronanglin@aanglin.dev</span> by filling out the form and let us talk.
                 </p>
               </div>
               <div>
@@ -72,13 +71,6 @@ const Contact = () => {
                       <GrResume /> 
                     </Link>
                   </div>
-                  {/* <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                  <Link 
-              href='/#contact'
-              >
-              <BsFillPersonLinesFill />
-              </Link>
-                  </div> */}
                 </div>
               </div>
             </div>
