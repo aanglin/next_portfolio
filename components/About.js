@@ -10,14 +10,14 @@ const About = () => {
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
-          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
+          <p className="uppercase text-xl tracking-widest text-[#027368] font-extrabold ">
             About
           </p>
           <h2 className="py-4">Who Am I</h2>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 ">
             I am your cooking front-end developer
           </p>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 ">
             I have worked in the food industry for over 20 years in many
             different levels. I started off as a cook, worked my way up to a
             manager and ultimately became an Operating Partner. I have always
@@ -26,7 +26,7 @@ const About = () => {
             card myself. My passion for technology was ignited and continues to
             grow.
           </p>
-          <p className="py-2 text-gray-600">
+          <p className="py-2 ">
             I loved my career in the food industry. After some time passed, I
             made the decision to pursue software development. I recently earned
             a certificate in full stack development from the University of Texas
@@ -40,7 +40,7 @@ const About = () => {
             experiences with an application..
           </p>
           <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
+            <p className="py-2 underline cursor-pointer">
               Check out my projects
             </p>
           </Link>

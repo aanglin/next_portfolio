@@ -8,25 +8,25 @@ import { useRouter } from "next/router";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("#ecf0f3");
+  const [navBg, setNavBg] = useState("#5c7373");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
 
-  useEffect(() => {
-    if (
-      router.asPath === "/recipe" ||
-      router.asPath === "/factorfiction" ||
-      router.asPath === "/notes" ||
-      router.asPath === "/weather" ||
-      router.asPath === "/techBlog"
-    ) {
-      setNavBg("transparent");
-      setLinkColor("#ecf0f3");
-    } else {
-      setNavBg("#ecf0f3");
-      setLinkColor("#1f2937");
-    }
-  }, [router]);
+  // useEffect(() => {
+  //   if (
+  //     router.asPath === "/recipe" ||
+  //     router.asPath === "/factorfiction" ||
+  //     router.asPath === "/notes" ||
+  //     router.asPath === "/weather" ||
+  //     router.asPath === "/techBlog"
+  //   ) {
+  //     setNavBg("transparent");
+  //     setLinkColor("#ecf0f3");
+  //   } else {
+  //     setNavBg("#ecf0f3");
+  //     setLinkColor("#1f2937");
+  //   }
+  // }, [router]);
 
   const handleNav = () => {
     setNav(!nav);
@@ -46,13 +46,13 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
+          ? "fixed w-full h-20 shadow-xl shadow-gray-400 z-[100]"
           : "fixed w-full h-20 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <h1 className="italic text-[#5651e5]">AA</h1>
+          <h1 className="italic text-[#034001]">AA</h1>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -89,14 +89,14 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 "
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#5c7373] p-10 ease-in duration-500 "
               : "fixed left-[-100%] top-0 p-10 ease-in duration-500 "
           }
         >
           <div>
             <div className="flex w-full items-center justify-around">
               <Link href="/">
-                <h1 className="italic text-[#5651e5]">AA</h1>
+                <h1 className="italic text-[#034001]">AA</h1>
               </Link>
               <div
                 onClick={handleNav}
@@ -140,7 +140,7 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#5651e5]">
+              <p className="uppercase tracking-widest ">
                 Let us Connect
               </p>
               <div className="flex items-center justify-around my-4 w-full sm:w-[80%]">

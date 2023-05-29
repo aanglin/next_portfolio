@@ -50,15 +50,15 @@ const Dealio = () => {
                 <RiRadioButtonFill className="mr-1" />
                 Next JS
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Tailwind CSS
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 MongoDB Atlas
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Stripe
               </p>

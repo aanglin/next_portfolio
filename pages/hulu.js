@@ -50,15 +50,15 @@ const Hulu2 = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Next JS
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Tailwind CSS
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              <p className=" py-2 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 TMDB API
               </p>

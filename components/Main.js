@@ -10,16 +10,16 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest text-gray-600">
+          <p className="uppercase text-sm tracking-widest ">
              Front-End | Back-End | MERN Stack Developer!
           </p>
-          <h1 className="py-4 text-gray-700">
-            Hi, I am <span className="text-[#5651e5]"> Aaron Anglin</span>
+          <h1 className="py-4 ">
+            Hi, I am <span className="text-[#034001]"> Aaron Anglin</span>
           </h1>
-          <h1 className="flex justify-center py-2 text-gray-700 ">
+          <h1 className="flex justify-center py-2">
             I am a Web Developer
           </h1>
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
+          <p className="py-4  max-w-[70%] m-auto">
             Front-end web developer focused on building responsive
             web applications to meet the needs of the client. I have a passion
             to help others and love to see others achieve their goals.
