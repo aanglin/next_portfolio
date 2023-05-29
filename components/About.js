@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Player } from "@lottiefiles/react-lottie-player";
 
@@ -6,13 +7,13 @@ const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2 ">
-          <p className="uppercase text-xl tracking-widest text-[#027368] font-extrabold ">
+        <div className="col-span-2">
+          <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Who Am I</h2>
+          <h2 className="py-4">Who I Am</h2>
           <p className="py-2 ">I am your cooking front-end developer</p>
-          <p className="py-2 ">
+          <p className="py-2 text-gray-600">
             I have worked in the food industry for over 20 years in many
             different levels. I started off as a cook, worked my way up to a
             manager and ultimately became an Operating Partner. I have always
@@ -21,7 +22,7 @@ const About = () => {
             card myself. My passion for technology was ignited and continues to
             grow.
           </p>
-          <p className="py-2 ">
+          <p className="py-2 text-gray-600">
             I loved my career in the food industry. After some time passed, I
             made the decision to pursue software development. I recently earned
             a certificate in full stack development from the University of Texas
@@ -35,12 +36,12 @@ const About = () => {
             experiences with an application..
           </p>
           <Link href="/#projects">
-            <p className="py-2 underline cursor-pointer">
-              Check out my projects
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Check out some of my latest projects.
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto  m-auto  rounded-xl flex items-center justify-center p-4  hover:scale-105 ease-in duration-300">
+        <div className="w-full h-auto m-auto  rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Player
             autoplay
             loop
