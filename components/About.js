@@ -1,15 +1,13 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
-import Lottie from "lottie-react";
-import animationData from "../public/assets/143896-user-interface-animation-loop.json";
-import Computer from "../public/assets/about.jpg";
+import { Player } from '@lottiefiles/react-lottie-player';
+
 
 const About = () => {
   return (
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
-        <div className="col-span-2">
+        <div className="col-span-2 ">
           <p className="uppercase text-xl tracking-widest text-[#027368] font-extrabold ">
             About
           </p>
@@ -45,8 +43,16 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto bg-[#011f26] shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Lottie animationData={animationData} />
+        <div className="w-full h-auto  m-auto  rounded-xl flex items-center justify-center p-4  hover:scale-105 ease-in duration-300">
+        <Player
+  autoplay
+  loop
+  src="https://assets9.lottiefiles.com/packages/lf20_w51pcehl.json"
+  style={{ height: '500px', width: '650px' }}
+>
+  
+</Player>
+          {/* <Lottie animationData={animationData} /> */}
           {/* <Image
             src={Computer}
             alt="/"
