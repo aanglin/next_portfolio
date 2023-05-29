@@ -29,7 +29,7 @@ const Contact = () => {
               <Player
             autoplay
             loop
-            src="https://assets10.lottiefiles.com/packages/lf20_t1pL2Z4MIA.json"
+            src="https://assets10.lottiefiles.com/packages/lf20_hlz9i1q4.json"
             style={{ height: "400px", width: "400px" }}
           ></Player>
               </div>
