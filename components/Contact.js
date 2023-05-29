@@ -28,13 +28,12 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <Lottie animationData={animationData}  />  
-              {/* <Player
+              <Player
             autoplay
             loop
-            src="https://assets10.lottiefiles.com/packages/lf20_hlz9i1q4.json"
+            src="https://assets1.lottiefiles.com/packages/lf20_mlp3zxve.json"
             style={{ height: "400px", width: "400px" }}
-          ></Player> */}
+          ></Player>
               </div>
               <div>
                 <h2 className="">Aaron Anglin</h2>
