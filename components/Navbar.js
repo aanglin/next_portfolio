@@ -10,24 +10,7 @@ const Navbar = () => {
   const [shadow, setShadow] = useState(false);
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
-  const router = useRouter();
-
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === "/recipe" ||
-  //     router.asPath === "/factorfiction" ||
-  //     router.asPath === "/notes" ||
-  //     router.asPath === "/weather" ||
-  //     router.asPath === "/techBlog"
-  //   ) {
-  //     setNavBg("transparent");
-  //     setLinkColor("#ecf0f3");
-  //   } else {
-  //     setNavBg("#ecf0f3");
-  //     setLinkColor("#1f2937");
-  //   }
-  // }, [router]);
-
+ 
   const handleNav = () => {
     setNav(!nav);
   };
@@ -52,7 +35,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <h1 className="italic text-[#034001]">AA</h1>
+          <h1 className="italic text-[#A62345]">AA</h1>
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -96,7 +79,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-around">
               <Link href="/">
-                <h1 className="italic text-[#034001]">AA</h1>
+                <h1 className="italic text-[#A62345]">AA</h1>
               </Link>
               <div
                 onClick={handleNav}

@@ -23,7 +23,7 @@ const recipe = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
+          <p className="text-[#A62345]">Project</p>
           <h2>Overview</h2>
           <p>
           Are you hungry but do not know what to cook. Look no further, we have the app for you. Introducing, Foodies Recipe. This website you can look up recipes to make and save your very own recipes and have other cooks look at your recipes. Building upon the foundation of react, I learned next js and used mongodb atlas to build this app from scratch.
@@ -48,19 +48,19 @@ const recipe = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Next JS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Tailwind CSS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Mongodb Atlas
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Recipe-by-api-Ninjas
               </p>

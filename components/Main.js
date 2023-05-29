@@ -1,25 +1,24 @@
 import Link from "next/link";
 import React from "react";
 import { GrResume } from "react-icons/gr";
-// import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { TypeAnimation } from "react-type-animation";
+
 
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="uppercase text-sm tracking-widest ">
+          <p className="uppercase text-sm tracking-widest text-gray-600 ">
              Front-End | Back-End | MERN Stack Developer!
           </p>
-          <h1 className="py-4 ">
-            Hi, I am <span className="text-[#034001]"> Aaron Anglin</span>
+          <h1 className="py-4 text-gray-700 ">
+            Hi, I&#39;m <span className="text-[#A62345]"> Aaron Anglin</span>
           </h1>
-          <h1 className="flex justify-center py-2">
-            I am a Web Developer
+          <h1 className="flex justify-center py-2 text-gray-700">
+          I&#39;m a Web Developer
           </h1>
-          <p className="py-4  max-w-[70%] m-auto">
+          <p className="py-4  max-w-[70%] m-auto text-gray-600">
             Front-end web developer focused on building responsive
             web applications to meet the needs of the client. I have a passion
             to help others and love to see others acheive their goals.

@@ -23,7 +23,7 @@ const recipe = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
+          <p className="text-[#A62345]">Project</p>
           <h2>Overview</h2>
           <p>
             I learned Handlebars and made a project based on a blog. You can
@@ -50,23 +50,23 @@ const recipe = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Handlebars
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 CSS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 MySQL2
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Bcrypt
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Express
               </p>

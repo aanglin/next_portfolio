@@ -22,7 +22,7 @@ const Dealio = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
+          <p className="text-[#A62345]">Project</p>
           <h2>Overview</h2>
           <p>
           I have built a fully-functional e-commerce site using Next.js, Tailwind CSS, MongoDB, and Stripe. This project allowed me to showcase my expertise in these modern technologies and tools. With Next.js, I was able to create a fast and responsive frontend with support for server-side rendering and code splitting. I used Tailwind CSS to quickly style the elements, while MongoDB provided a flexible and scalable backend database. Finally, I integrated Stripe into the site using webhooks, allowing me to securely process payments online. Overall, I am proud of the work that I have done on this e-commerce project and I am excited to see it grow and evolve over time.  
@@ -50,15 +50,15 @@ const Dealio = () => {
                 <RiRadioButtonFill className="mr-1" />
                 Next JS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Tailwind CSS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 MongoDB Atlas
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Stripe
               </p>

@@ -1,14 +1,10 @@
-import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { GrResume } from "react-icons/gr";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import ContactMe from "../public/assets/contact.jpg";
 import { useForm } from "react-hook-form";
 import { Player } from "@lottiefiles/react-lottie-player";
-import Lottie from "lottie-react";
-import animationData from "../public/assets/143896-user-interface-animation-loop.json";
 
 const Contact = () => {
   const { register, handleSubmit } = useForm();
@@ -19,7 +15,7 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
-        <p className="text-xl tracking-widest uppercase text-[#027368] font-extrabold ">
+        <p className="text-xl tracking-widest uppercase text-[#A62345] font-extrabold ">
           Contact
         </p>
         <h2 className="py-4">Get in Touch</h2>

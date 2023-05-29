@@ -22,7 +22,7 @@ const Foodies2 = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
+          <p className="text-[#A62345]">Project</p>
           <h2>Overview</h2>
           <p>
             In this remake of Foodies Recipe, it has an updated UI, and uses a new API called Edamon for recipe. It uses NextJs and Tailwind to style it. You can also save recipes that you like. They will be saved to your local storage. 
@@ -46,15 +46,15 @@ const Foodies2 = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Next JS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Tailwind CSS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Edamam API
               </p>

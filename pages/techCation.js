@@ -22,7 +22,7 @@ const Foodies2 = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
+          <p className="text-[#A62345]">Project</p>
           <h2>Overview</h2>
           <p>
           This was a get back to basics approach to making a landing page. I started with researching different sites to model the landing page. I found (Clint)code commerce channel on youtube and decided to base it on that style. I then created a prototype for the landing page using figma. I then coded the landing page. I made some changes to the landing page from the prototype and it looks more appealing. I have a better understanding of Next.js and Tailwind and look forward to learn more about these technologies. 
@@ -46,11 +46,11 @@ const Foodies2 = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Next JS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Tailwind CSS
               </p>

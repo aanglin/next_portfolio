@@ -22,7 +22,7 @@ const Foodies2 = () => {
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
+          <p className="text-[#A62345]">Project</p>
           <h2>Overview</h2>
           <p>
           I have built a simple todo app that will allow you to keep track of your daily task and mark them complete when finished. If you need to update your task you can do so. You can also delete your task when done. It is saved to the database under users id. This app is also made into an PWA using workbox-webpack-plugin. So feel free to download it to the computer or phone.
@@ -48,15 +48,15 @@ const Foodies2 = () => {
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Next JS
               </p>
-              <p className="py-2 flex items-center">
+              <p className="py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Tailwind CSS
               </p>
-              <p className=" py-2 flex items-center">
+              <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
                 Workbox-Webpack-Plugin
               </p>
