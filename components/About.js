@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Lottie from "lottie-react";
+import animationData from "../public/assets/143896-user-interface-animation-loop.json";
 import Computer from "../public/assets/about.jpg";
 
 const About = () => {
@@ -44,13 +46,14 @@ const About = () => {
           </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image
+          <Lottie animationData={animationData} />
+          {/* <Image
             src={Computer}
             alt="/"
             width="500"
             height="60"
             className="rounded-xl"
-          />
+          /> */}
         </div>
       </div>
     </div>
