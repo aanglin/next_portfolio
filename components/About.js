@@ -9,7 +9,7 @@ const About = () => {
     <div id="about" className="w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-1 gap-8">
         <div className="col-span-2">
-          <p className="pt-12 uppercase text-xl tracking-widest text-[#5651e5]">
+          <p className="pt-12 uppercase text-xl tracking-widest text-[#A62345]">
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
