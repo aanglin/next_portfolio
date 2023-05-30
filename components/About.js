@@ -24,12 +24,17 @@ const About = () => {
             specific language, but choosing the best tool for the job.
           </p>
           <p className="py-2 text-gray-600">
-            I started web developement in 2013 managing multiple e-commerce
-            websites on CMS platforms such as WordPress, BigCommerce, and
-            Shopify. I have experience working directly with clients and taking
-            mock wireframes all the way to deployed applications. In my spare
-            time I run Code Commerce, a Youtube channel where I teach web
-            developement and various front-end technologies.
+          I loved my career in the food industry. After some time passed, I
+            made the decision to pursue software development. I recently earned
+            a certificate in full stack development from the University of Texas
+            Austin Coding Bootcamp, with newly developed skills in JavaScript,
+            CSS, Node.js, Mysql2, MongoDB, React.js, and responsive web design.
+            Known as a hard-worker who focuses on developing code that solves
+            the problem at hand, and as a team player looking to help where
+            needed.. With each project, my aim is to best engage my audience for
+            an impactful user experience. I am excited to leverage my skills as
+            part of a fast-paced, quality-driven team to build better
+            experiences with an application..
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
