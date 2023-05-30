@@ -24,23 +24,30 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-              <Player
-            autoplay
-            loop
-            src="https://assets1.lottiefiles.com/packages/lf20_mlp3zxve.json"
-            style={{ height: "400px", width: "400px" }}
-          ></Player>
+                <Player
+                  autoplay
+                  loop
+                  src="https://assets1.lottiefiles.com/packages/lf20_mlp3zxve.json"
+                  style={{ height: "400px", width: "400px" }}
+                ></Player>
               </div>
               <div>
                 <h2 className="">Aaron Anglin</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available to do freelance work or full-time position.
-                  Contact me at <span className="text-[#034001]">aaronanglin@aanglin.dev</span> by filling out the form and let us talk.
+                  Contact me at{" "}
+                  <span className="text-[#034001]">
+                    aaronanglin@aanglin.dev
+                  </span>{" "}
+                  by filling out the form and let us talk.
                 </p>
               </div>
               <div>
-                <p className="uppercase pt-8"> Connect with me via linkedin, github or download my resume</p>
+                <p className="uppercase pt-8">
+                  {" "}
+                  Connect with me via linkedin, github or download my resume
+                </p>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <Link
@@ -66,7 +73,7 @@ const Contact = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <GrResume /> 
+                      <GrResume />
                     </Link>
                   </div>
                 </div>
@@ -131,7 +138,7 @@ const Contact = () => {
         <div className="flex justify-center py-12">
           <Link href="/">
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <HiOutlineChevronDoubleUp  size={30} />
+              <HiOutlineChevronDoubleUp size={30} />
             </div>
           </Link>
         </div>
