@@ -1,5 +1,4 @@
 import React from "react";
-import Recipe from "../public/assets/projects/recipe.png";
 import ProjectItems from "./ProjectItems";
 import Weather from "../public/assets/projects/Weather.png";
 import FactorFiction from "../public/assets/projects/FactorFiction.png";
@@ -10,6 +9,7 @@ import Foodies2 from "../public/assets/projects/Foodies2.0.png";
 import TechCation from "../public/assets/techcation.png";
 import Dealio from "../public/assets/dealio.png";
 import ToDo from "../public/assets/todo.png";
+import ETracker from "../public/assets/projects/e-tracker.png";
 
 const Projects = () => {
   return (
@@ -22,9 +22,9 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItems title="Hulu 2.0" bgImage={Hulu} projectUrl="/hulu" />
           <ProjectItems
-            title="Recipe App"
-            bgImage={Recipe}
-            projectUrl="/recipe"
+            title="Finance Tracker"
+            bgImage={ETracker}
+            projectUrl="/finance"
           />
           <ProjectItems
             title="Weather App"

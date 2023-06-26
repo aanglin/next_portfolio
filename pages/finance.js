@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import Recipe from "../public/assets/projects/recipe.png";
+import ETracker from "../public/assets/projects/e-tracker2.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const recipe = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={Recipe}
+          src={ETracker}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Foodies Recipe App</h2>
-          <h3>Next JS / Tailwind / Mongodb Atlas</h3>
+          <h2 className="py-2">Finance Tracker App</h2>
+          <h3>Next JS / Tailwind / Firebase / Next-PWA</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,22 +26,24 @@ const recipe = () => {
           <p className="text-[#A62345]">Project</p>
           <h2>Overview</h2>
           <p>
-          Are you hungry but do not know what to cook. Look no further, we have the app for you. Introducing, Foodies Recipe. This website you can look up recipes to make and save your very own recipes and have other cooks look at your recipes. Building upon the foundation of react, I learned next js and used mongodb atlas to build this app from scratch.
-
+            This is a finance tracker app that allows users to track their
+            income and expenses. Users can add and delete transactions. The app
+            also has a chart that shows the user&#8217;s expenses. The app is a
+            PWA and can be installed on mobile devices.
           </p>
           <a
-          href='https://recipe-jet.vercel.app/'
-          target="_blank"
+            href="https://expense-tracker-henna-alpha.vercel.app/"
+            target="_blank"
             rel="noreferrer"
           >
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-          href='https://github.com/aanglin/recipe'
-          target="_blank"
+            href="https://github.com/aanglin/expense-tracker"
+            target="_blank"
             rel="noreferrer"
           >
-          <button className="px-8 py-2 mt-4">Code</button>
+            <button className="px-8 py-2 mt-4">Code</button>
           </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
@@ -58,17 +60,17 @@ const recipe = () => {
               </p>
               <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Mongodb Atlas
+                Firebase
               </p>
               <p className=" py-2 text-gray-600 flex items-center">
                 <RiRadioButtonFill className="mr-1" />
-                Recipe-by-api-Ninjas
+                Next-PWA
               </p>
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-            <p className="underline cursor-pointer">Back</p>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
     </div>
